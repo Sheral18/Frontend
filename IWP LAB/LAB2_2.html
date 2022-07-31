@@ -1,0 +1,105 @@
+<html>
+<head>
+<h1 style="text-align:center">Student Registration Form</h1>
+
+<style>
+input,Submit,textarea,select,Reset
+{
+margin-left:20em;
+}
+
+label
+{
+position : absolute;
+}
+</style>
+</head>
+<body>
+<form>
+<label for="name">	Name : </label><br>
+<input type="text" id="name" name="name"><br>
+<br><br><br>
+
+<label for="reg">Register No. : </label><br>
+<input type="text" id="reg" name="reg"><br>
+<br><br><br>
+
+<label for="dept">Department : </label><br>
+<select name="dept" id="dept">
+<option value="CSE">CSE</option>
+<option value="ECM">ECM</option>
+<option value="ECE">ECE</option>
+<option value="EEE">EEE</option>
+</select>
+<br>
+<br><br><br>
+<label for="year">Year : </label><br>
+<input type="text"  id="year" name="year"><br>
+<br><br><br>
+
+<label for="date">Date Of Birth : </label><br>
+<input type="date"  id="date" name="date"><br>
+<br><br><br>
+
+<label for="address">Address: </label><br>
+<textarea id="addr" name="addr" rows="4" cols="40">
+</textarea>
+<br>
+<br><br><br>
+
+<label for="city">City : </label><br>
+<input type="text" name="city" id="city"><br>
+<br><br><br>
+
+<label for="state">State: </label><br>
+<input type="text" name="state" id="state"><br>
+<br><br><br>
+
+<label for="email">Email: </label><br>
+<input type="email" name="email" id="email"><br>
+<br><br><br>
+
+<label for="phone">Phone : </label><br>
+<input type="phone" name="phone" id="phone"><br>
+<br><br><br>
+
+<label for="Gender" >Gender :</label>
+<br>
+<label for="male">Male </label>
+<input type="radio" id="male" name="Gender" > 
+
+<label for="female">Female</label>
+<input type="radio" id="female" name="Gender" > <br>
+<br><br><br>
+
+<label for="campus">Campus :</label>
+<br>
+<label for="VITCC">VIT Chennai </label>
+<input type="radio" id="VITCC" name="campus">
+
+<label for="VIT">VIT Vellore </label>
+<input type="radio" id="VIT" name="campus">
+
+<label for="VITAP">VIT AP </label>
+<input type="radio" id="VITAP" name="campus">
+
+
+<label for="VITBP">VIT Bhopal </label>
+<input type="radio" id="VITBP" name="campus">
+<br>
+<br><br><br>
+
+<label for="dob">Proof for DOB :</label>
+<input type="file" id="dob" name="dob" accept="image/jpeg, doc/pdf">
+<br>
+<br><br><br>
+
+
+</form>
+<button type="submit" value="Submit">Submit</button>
+<button type="reset" value="Reset">Reset</button>
+
+
+</body>
+</head>
+</html>
